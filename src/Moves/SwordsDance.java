@@ -15,6 +15,6 @@ final public class SwordsDance extends StatusMove {
     }
     @Override
     protected String describe(){
-        return "Использует SwordDance";
+        return "Использует SwordsDance";
     }
 }
