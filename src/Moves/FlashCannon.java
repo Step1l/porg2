@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public class FlashCannon extends SpecialMove {
+final public class FlashCannon extends SpecialMove {
     public FlashCannon(){
         super(Type.STEEL,80,100);
     }

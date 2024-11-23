@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class Extrasensory extends SpecialMove {
+final public class Extrasensory extends SpecialMove {
     public Extrasensory(){
         super(Type.PSYCHIC,80,100);
     }

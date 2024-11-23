@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
-public class Confide extends StatusMove {
+final public class Confide extends StatusMove {
     public Confide(){
         super(Type.NORMAL,0,0);
     }

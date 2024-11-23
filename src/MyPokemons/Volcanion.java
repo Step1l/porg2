@@ -3,7 +3,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 import Moves.*;
 
-public class Volcanion extends Pokemon {
+final public class Volcanion extends Pokemon {
     public Volcanion(String name, int level){
         super(name,level);
         setType(Type.FIRE,Type.WATER);

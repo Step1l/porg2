@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Type;
 
 import java.lang.runtime.SwitchBootstraps;
 
-public class SwordsDance extends StatusMove {
+final public class SwordsDance extends StatusMove {
     public SwordsDance(){
         super(Type.NORMAL,0,0);
     }

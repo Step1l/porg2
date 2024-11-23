@@ -1,7 +1,7 @@
 package Moves;
 import ru.ifmo.se.pokemon.*;
 
-public class FlareBlitz  extends PhysicalMove {
+final public class FlareBlitz  extends PhysicalMove {
     public FlareBlitz(){
         super(Type.FIRE, 120, 100);
     }
@@ -26,7 +26,7 @@ public class FlareBlitz  extends PhysicalMove {
         p.setMod(Stat.HP,(int)damge);
 
     }
-    protected String describe(){
+    protected String applySelfDamage(){
         if (flag){
             return "Использует Flare Blitz и поджигает";
         }

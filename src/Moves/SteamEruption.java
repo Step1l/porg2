@@ -1,7 +1,7 @@
 package Moves;
 import ru.ifmo.se.pokemon.*;
 
-public class SteamEruption extends SpecialMove {
+final public class SteamEruption extends SpecialMove {
     public SteamEruption(){
         super(Type.WATER,110,95);
     }
