@@ -4,7 +4,6 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-import java.lang.runtime.SwitchBootstraps;
 
 final public class SwordsDance extends StatusMove {
     public SwordsDance(){
